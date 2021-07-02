@@ -24,7 +24,7 @@ public class SingerServiceImpl implements SingerService {
      */
     @Override
     public boolean insert(Singer singer) {
-        return singerMapper.insert(singer)>0;
+        return singerMapper.insert(singer) > 0;
     }
 
     /**
@@ -34,7 +34,7 @@ public class SingerServiceImpl implements SingerService {
      */
     @Override
     public boolean update(Singer singer) {
-        return singerMapper.update(singer)>0;
+        return singerMapper.update(singer) > 0;
     }
 
     /**
@@ -44,7 +44,7 @@ public class SingerServiceImpl implements SingerService {
      */
     @Override
     public boolean delete(Integer id) {
-        return singerMapper.delete(id)>0;
+        return singerMapper.delete(id) > 0;
     }
 
     /**
