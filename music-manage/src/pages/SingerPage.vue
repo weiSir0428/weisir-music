@@ -197,6 +197,7 @@ export default {
             getAllSinger().then(res => {
                 this.tempData = res;
                 this.tableData = res;
+                this.currentPage = 1;
             })
         },
         //添加歌手
